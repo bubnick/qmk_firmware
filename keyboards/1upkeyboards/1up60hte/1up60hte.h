@@ -15,11 +15,20 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+<<<<<<< HEAD
 #pragma once
 
 #include "quantum.h"
 
 #define LAYOUT_all( \
+=======
+#ifndef KB_H
+#define KB_H
+
+#include "quantum.h"
+
+#define KEYMAP( \
+>>>>>>> 5ff8b4995bb8de961f0a807578743093ad0f69ac
 	K000, K001, K002, K003, K004, K005, K006, K007, K008, K009, K010, K011, K012, K013, \
 	K100, K101, K102, K103, K104, K105, K106, K107, K108, K109, K110, K111, K112, K113, \
 	K200, K201, K202, K203, K204, K205, K206, K207, K208, K209, K210, K211, K212,       \
@@ -33,6 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	{ K400,  K401,  K402,  KC_NO, KC_NO, KC_NO, K406,  KC_NO, KC_NO, KC_NO, K410,  K411,  K412,  K413 }  \
 }
 
+<<<<<<< HEAD
 /* HHKB Variant */
 #define LAYOUT_hhkb( \
   K000, K001, K002, K003, K004, K005, K006, K007, K008, K009, K010, K011, K012, K013, \
@@ -42,3 +52,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	KC_NO, K401, K402,                  K406,                  K410, K411, K412, KC_NO  \
 )
 
+=======
+#endif
+>>>>>>> 5ff8b4995bb8de961f0a807578743093ad0f69ac
